@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{RQ4: agent-based estimators of the optimal path length against the human reference
+$\hat L^{*}_{\mathrm{H}}$ on Online-Mind2Web (successful runs). Coverage: share of successful runs for which the
+estimator is defined. $\rho$: task-level Spearman correlation with $\hat L^{*}_{\mathrm{H}}$. Ratio: median of
+$\hat L^{*}/\hat L^{*}_{\mathrm{H}}$. Bias [LoA]: mean and 95\% limits of agreement of the log ratio. $\tau_b$:
+agreement of configuration rankings by mean SER. H4: $\tau_b \ge 0.8$ and coverage $\ge 0.80$.}
+\label{tab:rq4}
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+Scaffold & Estimator & Coverage & $\rho$ [CI] & Ratio & Bias [LoA] & $\tau_b$ [CI] & H4 \\
+\midrule
+Browser-Use & $\hat L^{*}_{-m}$ & 0.97 & 0.60 [0.49, 0.71] & 1.00 & -0.16 [-1.50, 1.18] & 0.64 [0.46, 0.81] & no \\
+Browser-Use & $\hat L^{*}_{-f}$ & 0.97 & 0.59 [0.47, 0.70] & 1.00 & -0.14 [-1.49, 1.20] & 0.66 [0.44, 0.80] & no \\
+Browser-Use & $\hat L^{*}_{\mathrm{pool}}$ & 1.00 & 0.58 [0.50, 0.67] & 1.00 & -0.18 [-1.51, 1.16] & 0.60 [0.44, 0.80] & no \\
+SeeAct & $\hat L^{*}_{-m}$ & 0.99 & 0.62 [0.51, 0.71] & 0.86 & -0.20 [-1.23, 0.83] & 0.84 [0.68, 0.91] & yes \\
+SeeAct & $\hat L^{*}_{-f}$ & 0.98 & 0.61 [0.51, 0.71] & 0.86 & -0.18 [-1.23, 0.86] & 0.87 [0.66, 0.91] & yes \\
+SeeAct & $\hat L^{*}_{\mathrm{pool}}$ & 1.00 & 0.64 [0.55, 0.72] & 0.83 & -0.22 [-1.21, 0.77] & 0.84 [0.66, 0.91] & yes \\
+\bottomrule
+\end{tabular}
+\end{table}

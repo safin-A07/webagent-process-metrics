@@ -1,0 +1,6 @@
+metric,outcome,spearman
+ARR_url,log tokens,0.655145741106761
+SBF_url,log tokens,0.28375386838771033
+T,log tokens,0.828238537793266
+ARR_psi,log tokens,0.6549769081198036
+omega_tokens,log tokens,0.6648118861529774

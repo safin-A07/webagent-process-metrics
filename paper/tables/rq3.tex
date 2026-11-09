@@ -1,0 +1,40 @@
+\begin{table}[t]
+\centering
+\caption{RQ3: prediction of the expert repetition-cycle label on AgentRewardBench (prevalence 0.52, $n=1283$). Top: each score alone, with 95\%
+task-cluster bootstrap CIs and the mean held-out F1 over 100 task splits. Middle: out-of-sample gain in AUROC when
+the score is added to $\log T$ (mean and 2.5--97.5\% range over the splits). Bottom: binary detectors on the same
+trajectories.}
+\label{tab:rq3}
+\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Score & AUROC [CI] & AUPRC [CI] & $r_{pb}$ & Held-out F1 \\
+\midrule
+ARR ($\phi_{\mathrm{URL}}$) & 0.93 [0.91, 0.94] & 0.92 [0.89, 0.94] & 0.76 & 0.88 \\
+ARR ($\phi_{\mathrm{URL+AX}}$) & 0.92 [0.90, 0.93] & 0.91 [0.89, 0.93] & 0.70 & 0.88 \\
+SBF & 0.59 [0.56, 0.61] & 0.61 [0.58, 0.65] & 0.20 & 0.68 \\
+ARR + SBF & 0.91 [0.89, 0.93] & 0.88 [0.85, 0.91] & 0.67 & 0.87 \\
+ARR (scroll/wait exempt) & 0.89 [0.87, 0.91] & 0.89 [0.87, 0.91] & 0.68 & -- \\
+ARR$^{\psi}$ & 0.92 [0.90, 0.94] & 0.91 [0.88, 0.93] & 0.75 & 0.87 \\
+Length $T$ & 0.90 [0.88, 0.92] & 0.85 [0.83, 0.88] & 0.76 & 0.88 \\
+Longest repeat / $T$ & 0.88 [0.86, 0.90] & 0.87 [0.84, 0.90] & 0.59 & -- \\
+Trigram loop & 0.90 [0.88, 0.92] & 0.89 [0.86, 0.91] & 0.65 & 0.88 \\
+\midrule
+Model & AUROC ($\log T$) & AUROC (model) & \multicolumn{2}{c}{$\Delta$AUROC [range]} \\
+\midrule
+$\log T$ + ARR ($\phi_{\mathrm{URL+AX}}$) & 0.90 & 0.94 & \multicolumn{2}{c}{0.038 [0.027, 0.050]} \\
+$\log T$ + ARR$^{\psi}$ & 0.90 & 0.93 & \multicolumn{2}{c}{0.033 [0.023, 0.043]} \\
+$\log T$ + ARR ($\phi_{\mathrm{URL}}$) & 0.90 & 0.94 & \multicolumn{2}{c}{0.040 [0.030, 0.053]} \\
+$\log T$ + ARR + SBF & 0.90 & 0.94 & \multicolumn{2}{c}{0.041 [0.029, 0.053]} \\
+$\log T$ + Trigram loop & 0.90 & 0.93 & \multicolumn{2}{c}{0.031 [0.021, 0.040]} \\
+\midrule
+Detector & $n$ & F1 & Precision & Recall \\
+\midrule
+LLM judge: Claude 3.7 Sonnet & 1280 & 0.89 & 0.83 & 0.95 \\
+LLM judge: GPT-4o & 1283 & 0.88 & 0.81 & 0.97 \\
+LLM judge: Llama-3.3-70B & 1283 & 0.86 & 0.80 & 0.93 \\
+LLM judge: Qwen2.5-VL & 1283 & 0.79 & 0.88 & 0.72 \\
+ARR ($\phi_{\mathrm{URL}}$) $\ge$ 0.233 (rule) & 1283 & 0.88 & 0.84 & 0.94 \\
+\bottomrule
+\end{tabular}
+\end{table}

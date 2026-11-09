@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Cost-grounded process-level metrics for LLM web agents: code and derived results"
+authors:
+  - family-names: Hossain
+    given-names: Md Safin
+    affiliation: "International Islamic University Chittagong"
+  - family-names: Chawdhory
+    given-names: Jasem
+    affiliation: "International Islamic University Chittagong"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT

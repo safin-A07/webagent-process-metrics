@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{RQ1: agreement between configuration rankings by TSR and by each process metric (Kendall's $\tau_b$,
+metric oriented so that higher is better, 95\% website-cluster bootstrap CI), and pairwise tests within each
+scaffold. Equiv.: pairs whose success rates are equivalent by TOST ($\Delta = 10$ points); Sig.: pairs whose
+metric differs (permutation test, Holm); Both: equivalent in success and different in the metric. ARR$^{\psi}$ is
+the state-free ARR (equal to the unique-action ratio), the only form computable on HAL.}
+\label{tab:rq1}
+\footnotesize
+\begin{tabular}{@{}llccrrrr@{}}
+\toprule
+Scaffold ($K$) & Metric & $\tau_b$ (successful runs) & $\tau_b$ (all runs) & Pairs & Equiv. & Sig. & Both \\
+\midrule
+Browser-Use (19) & SER & -0.41 [-0.49, -0.16] & -0.39 [-0.48, -0.21] & 171 & 53 & 117 & 35 \\
+Browser-Use (19) & ARR$^{\psi}$ & -0.13 [-0.34, 0.04] & -0.22 [-0.29, 0.01] & 171 & 53 & 88 & 28 \\
+Browser-Use (19) & SBF & 0.17 [-0.22, 0.33] & -0.06 [-0.34, 0.15] & 171 & 53 & 5 & 2 \\
+SeeAct (17) & SER & 0.40 [0.14, 0.49] & 0.27 [0.01, 0.36] & 136 & 73 & 51 & 26 \\
+SeeAct (17) & ARR$^{\psi}$ & 0.33 [-0.04, 0.39] & 0.15 [-0.06, 0.32] & 136 & 73 & 27 & 11 \\
+\bottomrule
+\end{tabular}
+\end{table}

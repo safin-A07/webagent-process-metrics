@@ -1,0 +1,6 @@
+scaffold,metric,pairs,tsr_equivalent,tsr_mcnemar_sig_holm,metric_sig_holm,equivalent_and_metric_sig
+browser-use,SER_H,171,53,64,117,35
+browser-use,ARR_psi,171,53,64,88,28
+browser-use,SBF_url,171,53,64,5,2
+seeact,SER_H,136,73,17,51,26
+seeact,ARR_psi,136,73,17,27,11

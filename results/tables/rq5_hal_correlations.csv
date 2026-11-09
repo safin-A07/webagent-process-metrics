@@ -1,0 +1,57 @@
+level,a,b,spearman,partial_given_logT
+trajectory,SER_H,ARR_psi,-0.660562795373368,-0.12656209854221062
+trajectory,SER_H,SBF_url,-0.34585393507442747,-0.07742289551429077
+trajectory,SER_H,T,-0.8022369616024196,
+trajectory,SER_H,success,0.11663781194359774,-0.22122325424731087
+trajectory,SER_H,B_unique,-0.660562795373368,-0.12656209854221062
+trajectory,SER_H,B_longest_repeat,-0.42137003726255795,-0.09501525842841668
+trajectory,SER_H,B_trigram_loop,-0.5489283928459511,-0.10048898800784423
+trajectory,ARR_psi,SBF_url,0.2517326527905859,-0.060588778763323255
+trajectory,ARR_psi,T,0.7624604353444533,
+trajectory,ARR_psi,success,-0.30234468679835547,-0.1164805296376932
+trajectory,ARR_psi,B_unique,0.9999999999999999,0.9999999999999998
+trajectory,ARR_psi,B_longest_repeat,0.8300187526527499,0.8321011875264358
+trajectory,ARR_psi,B_trigram_loop,0.7835498167285816,0.6070136087466873
+trajectory,SBF_url,T,0.3777649361876872,
+trajectory,SBF_url,success,-0.1538071255412663,-0.04487155385715314
+trajectory,SBF_url,B_unique,0.2517326527905858,-0.06058877876332316
+trajectory,SBF_url,B_longest_repeat,0.11151194671921587,-0.07701952973339805
+trajectory,SBF_url,B_trigram_loop,0.16221037525794432,-0.10281580473108681
+trajectory,T,success,-0.30231644108078115,
+trajectory,T,B_unique,0.7624604353444533,
+trajectory,T,B_longest_repeat,0.4625547078078987,
+trajectory,T,B_trigram_loop,0.6259264243025802,
+trajectory,success,B_unique,-0.30234468679835547,-0.1164805296376932
+trajectory,success,B_longest_repeat,-0.1961974972626731,-0.06668946552008312
+trajectory,success,B_trigram_loop,-0.24996486309244648,-0.08170280589516667
+trajectory,B_unique,B_longest_repeat,0.8300187526527499,0.8321011875264358
+trajectory,B_unique,B_trigram_loop,0.7835498167285816,0.6070136087466873
+trajectory,B_longest_repeat,B_trigram_loop,0.6730750064804948,0.5547146044793172
+configuration (K=19),SER_H,ARR_psi,-0.5964912280701754,
+configuration (K=19),SER_H,SBF_url,0.3526315789473684,
+configuration (K=19),SER_H,T,-0.8754385964912281,
+configuration (K=19),SER_H,success,-0.46315789473684205,
+configuration (K=19),SER_H,B_unique,-0.5964912280701754,
+configuration (K=19),SER_H,B_longest_repeat,-0.1280701754385965,
+configuration (K=19),SER_H,B_trigram_loop,-0.3473684210526316,
+configuration (K=19),ARR_psi,SBF_url,-0.17719298245614035,
+configuration (K=19),ARR_psi,T,0.6754385964912282,
+configuration (K=19),ARR_psi,success,0.22456140350877193,
+configuration (K=19),ARR_psi,B_unique,1.0,
+configuration (K=19),ARR_psi,B_longest_repeat,0.7754385964912281,
+configuration (K=19),ARR_psi,B_trigram_loop,0.8859649122807017,
+configuration (K=19),SBF_url,T,-0.39473684210526316,
+configuration (K=19),SBF_url,success,0.1824561403508772,
+configuration (K=19),SBF_url,B_unique,-0.17719298245614035,
+configuration (K=19),SBF_url,B_longest_repeat,0.10350877192982455,
+configuration (K=19),SBF_url,B_trigram_loop,-0.06842105263157894,
+configuration (K=19),T,success,0.18947368421052632,
+configuration (K=19),T,B_unique,0.6754385964912282,
+configuration (K=19),T,B_longest_repeat,0.3175438596491228,
+configuration (K=19),T,B_trigram_loop,0.5403508771929825,
+configuration (K=19),success,B_unique,0.22456140350877193,
+configuration (K=19),success,B_longest_repeat,-0.014035087719298246,
+configuration (K=19),success,B_trigram_loop,0.04385964912280702,
+configuration (K=19),B_unique,B_longest_repeat,0.7754385964912281,
+configuration (K=19),B_unique,B_trigram_loop,0.8859649122807017,
+configuration (K=19),B_longest_repeat,B_trigram_loop,0.9350877192982456,
