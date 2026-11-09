@@ -72,9 +72,9 @@ per-trajectory metric values, aggregate results and SHA-256 checksums of the inp
 
 | Source | Version used | Terms |
 | --- | --- | --- |
-| HAL traces for Online-Mind2Web (Hugging Face `agent-evals/hal_traces`) | commit `e7dcedc` | Encrypted by the provider to limit contamination; traces are not redistributed here. |
+| HAL traces for Online-Mind2Web (Hugging Face `agent-evals/hal_traces`) | commit `e7dcedc82b4f4bc819a170fd6616bdb44841c71e` | Encrypted by the provider to limit contamination; traces are not redistributed here. |
 | Online-Mind2Web tasks (`osunlp/Online-Mind2Web`) | as copied into the HAL records | CC-BY-4.0, gated; only task identifiers, websites, levels and reference lengths appear in the derived files. |
-| AgentRewardBench (`McGill-NLP/agent-reward-bench`) | commit `b6d17e6` | See `DATA_NOTICE.md`. |
+| AgentRewardBench (`McGill-NLP/agent-reward-bench`) | commit `b6d17e646009d6cb63d5dd7be78807b680693f61` | See `DATA_NOTICE.md`. |
 
 ## Licence
 
