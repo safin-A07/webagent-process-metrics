@@ -48,7 +48,7 @@ def tex(t):
     f = lambda x: f"{x:.2f}"  # noqa: E731
     name = {"browser-use": "Browser-Use", "seeact": "SeeAct"}
     body = "\n".join(
-        f"{name[r.scaffold]} & {r.level} & {r.n_tasks} & {100 * r.TSR:.1f} & {r.n_success} & {f(r.SER_H_success)} "
+        f"{name[r.scaffold] if r.level == 'easy' else ''} & {r.level} & {r.n_tasks} & {100 * r.TSR:.1f} & {r.n_success} & {f(r.SER_H_success)} "
         f"[{f(r.SER_H_cfg_min)}, {f(r.SER_H_cfg_max)}] & {f(r.SER_H_all)} & {f(r.coverage_minus_m)} & "
         f"{f(r.SER_H_covered)} & {f(r.SER_minus_m_covered)} \\\\" for r in t.itertuples())
     (ROOT / "paper" / "tables" / "strata.tex").write_text(r"""\begin{table}[t]
