@@ -3,7 +3,7 @@
 Code, tests, pre-registered analysis plan and derived results for the paper
 
 > Md Safin Hossain and Jasem Chawdhory. *Beyond the Destination: Cost-Grounded Process-Level Evaluation Metrics
-> for LLM-Based Web Navigation Agents.* Manuscript under review, 2026.
+> for LLM-Based Web Navigation Agents.* Manuscript in preparation, 2026.
 
 The paper defines process metrics that are computed post hoc from released web-agent logs, for successful and
 failed runs:
